@@ -1,0 +1,228 @@
+[
+    {
+        "model": "api.category",
+        "pk": 1,
+        "fields": {
+            "image": "category-images/sample1.jpg",
+            "name": "Technology"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 2,
+        "fields": {
+            "image": "category-images/sample2.jpg",
+            "name": "Science"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 3,
+        "fields": {
+            "image": "category-images/sample3.jpg",
+            "name": "Health"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 4,
+        "fields": {
+            "image": "category-images/sample4.jpg",
+            "name": "Sports"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 5,
+        "fields": {
+            "image": "category-images/sample5.jpg",
+            "name": "Business"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 6,
+        "fields": {
+            "image": "category-images/sample6.jpg",
+            "name": "Travel"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 7,
+        "fields": {
+            "image": "category-images/sample7.jpg",
+            "name": "Lifestyle"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 8,
+        "fields": {
+            "image": "category-images/sample8.jpg",
+            "name": "Education"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 9,
+        "fields": {
+            "image": "category-images/sample9.jpg",
+            "name": "Entertainment"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": 10,
+        "fields": {
+            "image": "category-images/sample10.jpg",
+            "name": "Politics"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 1,
+        "fields": {
+            "image": "author-images/author1.jpg",
+            "full_name": "John Doe"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 2,
+        "fields": {
+            "image": "author-images/author2.jpg",
+            "full_name": "Jane Smith"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 3,
+        "fields": {
+            "image": "author-images/author3.jpg",
+            "full_name": "Alice Johnson"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 4,
+        "fields": {
+            "image": "author-images/author4.jpg",
+            "full_name": "Bob Brown"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 5,
+        "fields": {
+            "image": "author-images/author5.jpg",
+            "full_name": "Charlie Davis"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 6,
+        "fields": {
+            "image": "author-images/author6.jpg",
+            "full_name": "Eve White"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 7,
+        "fields": {
+            "image": "author-images/author7.jpg",
+            "full_name": "Frank Green"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 8,
+        "fields": {
+            "image": "author-images/author8.jpg",
+            "full_name": "Grace Hill"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 9,
+        "fields": {
+            "image": "author-images/author9.jpg",
+            "full_name": "Harry Fox"
+        }
+    },
+    {
+        "model": "api.author",
+        "pk": 10,
+        "fields": {
+            "image": "author-images/author10.jpg",
+            "full_name": "Ivy King"
+        }
+    },
+    {
+        "model": "api.article",
+        "pk": 1,
+        "fields": {
+            "author": 1,
+            "category": 1,
+            "title": "The Future of AI",
+            "content": "AI is transforming the world...",
+            "published_at": "2024-11-11T12:00:00Z"
+        }
+    },
+    {
+        "model": "api.article",
+        "pk": 2,
+        "fields": {
+            "author": 2,
+            "category": 2,
+            "title": "Exploring Quantum Computing",
+            "content": "Quantum computing offers new possibilities...",
+            "published_at": "2024-11-11T12:00:00Z"
+        }
+    },
+    {
+        "model": "api.article",
+        "pk": 3,
+        "fields": {
+            "author": 3,
+            "category": 3,
+            "title": "The Importance of Mental Health",
+            "content": "Mental health is essential to well-being...",
+            "published_at": "2024-11-11T12:00:00Z"
+        }
+    },
+    {
+        "model": "api.article",
+        "pk": 4,
+        "fields": {
+            "author": 4,
+            "category": 4,
+            "title": "Olympics 2024 Highlights",
+            "content": "A look back at the exciting moments...",
+            "published_at": "2024-11-11T12:00:00Z"
+        }
+    },
+    {
+        "model": "api.comment",
+        "pk": 1,
+        "fields": {
+            "article": 1,
+            "username": "commenter1",
+            "email": "commenter1@example.com",
+            "text": "This is so interesting!",
+            "published_at": "2024-11-11T13:00:00Z"
+        }
+    },
+    {
+        "model": "api.comment",
+        "pk": 2,
+        "fields": {
+            "article": 1,
+            "username": "commenter2",
+            "email": "commenter2@example.com",
+            "text": "Thank you for this article.",
+            "published_at": "2024-11-11T13:10:00Z"
+        }
+    }
+]
